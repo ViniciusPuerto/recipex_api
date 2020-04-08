@@ -1,24 +1,16 @@
-# README
+# RecipeX API
+RecipeX is an application that makes it possible for the user loads your favorite recipes and share with friends and also search for new ones.
+<br>New features soon.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Running
 
-Things you may want to cover:
+* Install [Docker](https://www.docker.com/get-started) and [docker-compose](https://docs.docker.com/compose/install/)
 
-* Ruby version
+* `docker-compose build`
 
-* System dependencies
+* `docker-compose run api rails db:create db:migrate`
 
-* Configuration
+* `docker-compose up`
 
-* Database creation
+* To run rails commands you can `docker-compose run api rails [YOUR COMAND]`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
